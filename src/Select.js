@@ -1048,6 +1048,7 @@ const Select = createClass({
 	},
 
 	renderOuter (options, valueArray, focusedOption) {
+		console.log('RENDER OUTER');
 		let menu = this.renderMenu(options, valueArray, focusedOption);
 		if (!menu) {
 			return null;
