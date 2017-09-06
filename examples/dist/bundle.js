@@ -2214,6 +2214,7 @@ var Select = (0, _createReactClass2['default'])({
 	renderOuter: function renderOuter(options, valueArray, focusedOption) {
 		var _this7 = this;
 
+		console.log('RENDER OUTER');
 		var menu = this.renderMenu(options, valueArray, focusedOption);
 		if (!menu) {
 			return null;
